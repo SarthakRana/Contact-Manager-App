@@ -1,7 +1,7 @@
 
 # Contact Manager Application
 
-This is contact manager application - a backend app that helps you store your contacts, create new ones and modify existing contacts. The project uses CRUD APIs to manage your contacts.
+This is contact manager application - a backend app that helps you store your contacts, create new ones and modify existing contacts. The project uses CRUD (Create \ Read \ Update \ Delete) RestAPIs to manage your contacts.
 
 ```
 Please don't forget to ⭐ this repo if you found it helful. Means a lot!
@@ -24,7 +24,7 @@ This project will help you get familiarized with CRUD operations using RestAPIs 
 - Using Express Middlewares
 - Setting up MongoDB
 - Creating Mongoose Schema
-- Using CRUD APIs
+- Using CRUD RestAPIs
 - User Authentication
 - User registration & login
 - Express Controllers and DB Operations
