@@ -1,23 +1,62 @@
-# Contact-Manager-App
 
-This is a contact manager application - an app that helps you store your contacts, create new ones and modify existing contacts. The project uses CRUD operations to manage your contacts. 
+# Contact Manager Application
 
-This project will familiarize you with basic CRUD operations using RestAPIs in NodeJs and help you get hands-on with topics like:
+This is contact manager application - a backend app that helps you store your contacts, create new ones and modify existing contacts. The project uses CRUD APIs to manage your contacts.
 
-1. Creating Express server
-2. Using Thunderclient VS Code extension to test APIs
-3. Using Express Routers
-4. Error handling/ Async Handler
-5. Using Express Middlewares
-6. Setting up MongoDB
-7. Creating Mongoose Schema
-8. Using CRUD APIs
-9. User Authentication
-10. User registration & login
-11. Express Controllers and DB Operations
-12. Password Hashing & Comparing
-13. Sign/ Verify JWT
-14. Handle Relationships
-15. Protected Routes
-16. User Authorization
-17. API Testing
+```
+Please don't forget to ⭐ this repo if you found it helful. Means a lot!
+```
+
+**Live Demo App**: Coming soon...
+
+## Tech Stack
+
+- NodeJS
+- ExpressJS
+- MongoDB
+## App Features
+
+This project will help you get familiarized with CRUD operations using RestAPIs in NodeJs and will help you get hands-on with topics/ concepts like:
+
+- Creating Express server
+- Using Express Routers
+- Error handling/ Async Handler
+- Using Express Middlewares
+- Setting up MongoDB
+- Creating Mongoose Schema
+- Using CRUD APIs
+- User Authentication
+- User registration & login
+- Express Controllers and DB Operations
+- Password Hashing & Comparing
+- Signing/ Verifying JWT
+- Handling Relationships
+- Protecting Routes
+## Installation and Setup
+
+1. Clone this repository to yopure local machine.
+2. Go into the project folder and in termainal, run the below npm command.
+
+```
+cd <my-project-directory>
+npm install
+```
+
+3. Create a ```.env``` file and define below environment variables:
+
+```
+PORT
+CONNECTION_STRING
+ACCESS_TOKEN_SECRET
+```
+PORT - Define the port on which you want to run the server. \
+CONNECTION_STRING - Connection string from the mongodb server. Just login to mongodb and create a cluster to get the connection string.\
+ACCESS_TOKEN_SECRET - Secret token that is used to sign and verify a JWT token.
+
+4. Run the project server
+```
+npm start
+or
+npm run dev (runs the nodemon server)
+```
+
